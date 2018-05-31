@@ -1,0 +1,11 @@
+<li>
+	{{burger_name}}
+
+    {{#unless devoured}}
+	<button class="eat-burger btn btn-primary btn-sm" data-id="{{id}}">
+        EAT DA BURGER
+	</button>
+    {{/unless}}
+
+    <a href="" class="delete-burger" data-id="{{this.id}}"><i class="far fa-times-circle"></i></a>
+</li>

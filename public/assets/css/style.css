@@ -1,0 +1,52 @@
+#wrap {
+	position: fixed; 
+	z-index: -1; 
+	top: 0; 
+	left: 0; 
+	background-color: black;
+}
+#wrap img.bgfade {
+	position: absolute;
+	top: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.container {
+    height: 90vh;
+    margin: 0 auto;
+    background-color: rgba(250, 250, 250, 0.6);
+    box-shadow: 0 0 20px 2px white;
+    border-radius: 20px;
+    outline: none;
+    overflow: auto;
+    position: fixed;
+    margin-left: 10vw;
+    top: 5vh;
+}
+
+#burgerIcon {
+    width: 10vw;
+    transform: translate(0, -25%);
+    margin-right: 10px;
+}
+
+#mainHeading {
+    width: 700px;
+    font-family: 'Pacifico', cursive;
+    margin: 20px auto 0;
+
+    
+    
+}
+
+li {
+    margin: 5px auto;
+}
+
+.form-group {
+    margin-left: 25px;
+    margin-top: 1.1rem;
+}
